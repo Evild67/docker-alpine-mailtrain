@@ -4,7 +4,7 @@ stages:
   - deploy
 
 test_job:
-  stage: build
+  stage: test
   script:
     - ci/mailtrain_build
 
