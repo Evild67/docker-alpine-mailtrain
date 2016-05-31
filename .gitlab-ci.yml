@@ -3,6 +3,14 @@ stages:
   - tweet
   - deploy
 
+image: docker:latest
+
+services:
+- docker:dind
+
+before_script:
+- docker info
+
 test_job:
   stage: test
   script:
