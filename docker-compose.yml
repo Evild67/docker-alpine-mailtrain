@@ -1,0 +1,16 @@
+version : '2'
+
+services:
+  mailtrain:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - 3000:3000
+  db:
+    image: mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=mailtrain
+      - MYSQL_DATABASE=mailtrain
+      - MYSQL_USER=mailtrain
+      - MYSQL_PASSWORD=mailtrain

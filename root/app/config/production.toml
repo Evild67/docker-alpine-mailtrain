@@ -1,0 +1,56 @@
+
+# If you start out as a root user (eg. if you want to use ports lower than 1000)
+# then you can downgrade the user once all services are up and running
+#user="nobody"
+#group="nogroup"
+
+# Process title visible in monitorin logs and process listing
+title="mailtrain"
+
+[log]
+level="verbose"
+
+[www]
+# HTTP port to listen on
+port=3000
+# HTTP interface to listen on
+host="0.0.0.0"
+# Secret for signing the session ID cookie
+secret="a cat"
+# Session length in seconds when "remember me" is checked
+remember=2592000 # 30 days
+# logger interface
+log="dev"
+# is the server behind a proxy? true/false
+proxy=true
+# maximum POST body size
+postsize="2MB"
+
+[mysql]
+host="db"
+user="root"
+password="mailtrain"
+database="mailtrain"
+port=3306 # some installations, eg. MAMP can use a different port (8889)
+charset="utf8mb4"
+timezone="local"
+
+[redis]
+# enable to use Redis session cache or disable if Redis is not installed
+enabled=false
+host="localhost"
+port=6379
+db=5
+
+[verp]
+enabled=false
+port=25
+host="0.0.0.0"
+
+[testserver]
+enabled=false
+port=5587
+host="0.0.0.0"
+username="testuser"
+password="testpass"
+logger=false

@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv sh
+
+# cd into our directory
+cd /app
+
+# start our node.js application
+export NODE_ENV=production
+exec npm start
