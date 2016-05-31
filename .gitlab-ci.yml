@@ -6,7 +6,7 @@ stages:
 test_job:
   stage: test
   script:
-    - ci/mailtrain_build
+    - ci/mailtrain_test
 
 tweet_succeed_job:
   variables:
