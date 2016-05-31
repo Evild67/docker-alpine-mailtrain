@@ -38,12 +38,3 @@ tweet_failed_job:
   script:
     - ci/mailtrain_tweet
   when: on_failure
-
-deploy_job:
-  stage: deploy
-  only:
-    - tags
-    - triggers
-    - master
-  script:
-    - ci/mailtrain_deploy
