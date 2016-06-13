@@ -2,13 +2,13 @@ version : '2'
 
 services:
   mailtrain:
-    build: .
+    image: evild/alpine-mailtrain
     depends_on:
       - db
     ports:
       - 3000:3000
   db:
-    image: mariadb
+    image: mariadb:10.1
     environment:
       - MYSQL_ROOT_PASSWORD=mailtrain
       - MYSQL_DATABASE=mailtrain
