@@ -26,8 +26,9 @@ docker pull evild/alpine-mailtrain:latest
 ```
 
 ## How to use this image
-You can check my docker-compose.
+You can check my [docker-compose](https://github.com/Evild67/docker-alpine-mailtrain/blob/master/docker-compose.yml).
 
+To start your stack :
 ```
 docker-compose up -d
 ```
