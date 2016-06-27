@@ -21,7 +21,7 @@ Mailtrain is a self hosted newsletter application built on Node.js (v5+) and MyS
 ## Installation
 Automated builds of the image are available on Dockerhub and is the recommended method of installation.
 ```
-docker pull evild/alpine-mailtrain:1.11.0
+docker pull evild/alpine-mailtrain:1.13.0
 ```
 You can also pull the latest tag which is built from the repository HEAD.
 ```

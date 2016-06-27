@@ -2,7 +2,7 @@ version : '2'
 
 services:
   mailtrain:
-    image: evild/alpine-mailtrain
+    image: evild/alpine-mailtrain:1.13.0
     depends_on:
       - db
     ports:
