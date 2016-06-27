@@ -9,6 +9,7 @@ This image is based on [evild/alpine-nodejs](https://hub.docker.com/r/evild/alpi
 ## Version
 
 - `latest` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/master/Dockerfile)
+- `1.12.1` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/f6c71bce68e0aaf6f343cec8779b07e32a41d4fa/Dockerfile)
 - `1.11.0` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/aff86ff3817eb139e9e043bb8a9c60a50238f32f/Dockerfile)
 
 ## What is Mailtrain?
