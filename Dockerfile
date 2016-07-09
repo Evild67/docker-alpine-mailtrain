@@ -1,4 +1,4 @@
-FROM evild/alpine-nodejs:6.2.0
+FROM evild/alpine-nodejs:6.3.0
 MAINTAINER DOMINIQUE HAAS <contact@dominique-haas.fr>
 
 ARG MAILTRAIN_VERSION=1.13.0
