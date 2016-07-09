@@ -1,7 +1,7 @@
 FROM evild/alpine-nodejs:6.3.0
 MAINTAINER DOMINIQUE HAAS <contact@dominique-haas.fr>
 
-ARG MAILTRAIN_VERSION=1.13.0
+ARG MAILTRAIN_VERSION=1.14.0
 
 RUN set -ex && apk add --no-cache curl \
   && cd /tmp \
