@@ -36,3 +36,5 @@ To start your stack :
 ```
 docker-compose up -d
 ```
+
+Authenticate as ```admin```:```test```
