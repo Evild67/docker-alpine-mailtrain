@@ -2,9 +2,10 @@ version : '2'
 
 services:
   mailtrain:
-    image: evild/alpine-mailtrain:1.13.0
-    depends_on:
-      - db
+    image: evild/alpine-mailtrain:1.15.0
+    networks:
+      - front
+      - back
     ports:
       - 3000:3000
   db:
@@ -14,3 +15,8 @@ services:
       - MYSQL_DATABASE=mailtrain
       - MYSQL_USER=mailtrain
       - MYSQL_PASSWORD=mailtrain
+    networks:
+      - back
+networks:
+  front:
+  back:
