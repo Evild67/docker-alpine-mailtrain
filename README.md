@@ -9,6 +9,7 @@ This image is based on [evild/alpine-nodejs](https://hub.docker.com/r/evild/alpi
 ## Version
 
 - `latest` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/master/Dockerfile)
+- `1.18.0` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/cdf6887bf0685d90b02115a3a57f7bdd2dac7d1d/Dockerfile)
 - `1.17.0` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/e270accdd12844fb6d5ec9ac30fc20c46a32f29d/Dockerfile)
 - `1.16.0` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/05c8d19786c986f8169ca4b472977476c7adfa80/Dockerfile)
 - `1.15.1` [(Dockerfile)](https://github.com/Evild67/docker-alpine-mailtrain/blob/51e68c63c5fde5095451cbc347adb5de73c5eea1/Dockerfile)
