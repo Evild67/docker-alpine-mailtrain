@@ -2,14 +2,14 @@ version : '2'
 
 services:
   mailtrain:
-    image: evild/alpine-mailtrain:1.18.0
+    image: evild/alpine-mailtrain:latest
     networks:
       - front
       - back
     ports:
       - 3000:3000
   db:
-    image: mariadb:10.1
+    image: mariadb:latest
     environment:
       - MYSQL_ROOT_PASSWORD=mailtrain
       - MYSQL_DATABASE=mailtrain
