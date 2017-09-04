@@ -1,6 +1,6 @@
-[![Docker Stars](https://img.shields.io/docker/stars/evild/alpine-mailtrain.svg?style=flat-square)](https://hub.docker.com/r/evild/alpine-mailtrain/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/evild/alpine-mailtrain.svg?style=flat-square)](https://hub.docker.com/r/evild/alpine-mailtrain/)
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/otlet/alpine-mailtrain/latest.svg?style=flat-square)](https://hub.docker.com/r/evild/alpine-mailtrain/)
+[![Docker Stars](https://img.shields.io/docker/stars/otlet/docker-alpine-mailtrain.svg?style=flat-square)](https://hub.docker.com/r/otlet/docker-alpine-mailtrain/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/otlet/docker-alpine-mailtrain.svg?style=flat-square)](https://hub.docker.com/r/otlet/docker-alpine-mailtrain/)
+[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/otlet/docker-alpine-mailtrain/latest.svg?style=flat-square)](https://hub.docker.com/r/otlet/docker-alpine-mailtrain/)
 
 # Alpine Mailtrain
 
@@ -9,6 +9,7 @@ This image is forked from [(Evild67/docker-alpine-mailtrain)](https://github.com
 ## Version
 
 - `latest` [(Dockerfile)](https://github.com/otlet/docker-alpine-mailtrain/blob/master/Dockerfile)
+- `1.24.0` [(Dockerfile)](https://github.com/otlet/docker-alpine-mailtrain/blob/6dce80f66b868904fe4c579f3314223cd4c3f81c/Dockerfile)
 
 ## What is Mailtrain?
 
