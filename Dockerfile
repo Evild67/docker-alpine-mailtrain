@@ -1,7 +1,7 @@
 FROM evild/alpine-nodejs:6.3.0
 MAINTAINER PAWEL OTLEWSKI <otlet@otlet.pl>
 
-ARG MAILTRAIN_VERSION=1.24.0
+ARG MAILTRAIN_VERSION=1.24.1
 
 RUN set -ex && apk add --no-cache curl \
   && cd /tmp \
