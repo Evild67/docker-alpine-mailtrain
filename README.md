@@ -9,7 +9,7 @@ This image is forked from [(Evild67/docker-alpine-mailtrain)](https://github.com
 ## Version
 
 - `latest` [(Dockerfile)](https://github.com/otlet/docker-alpine-mailtrain/blob/master/Dockerfile)
-- `1.24.0` [(Dockerfile)](https://github.com/otlet/docker-alpine-mailtrain/blob/6dce80f66b868904fe4c579f3314223cd4c3f81c/Dockerfile)
+- `1.24.1` [(Dockerfile)](https://github.com/otlet/docker-alpine-mailtrain/blob/6dce80f66b868904fe4c579f3314223cd4c3f81c/Dockerfile)
 
 ## What is Mailtrain?
 
