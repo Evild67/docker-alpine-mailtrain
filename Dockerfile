@@ -1,4 +1,4 @@
-FROM node
+FROM node:lts-alpine
 MAINTAINER PAWEL OTLEWSKI <otlet@otlet.pl>
 
 ARG MAILTRAIN_VERSION=1.24.1
