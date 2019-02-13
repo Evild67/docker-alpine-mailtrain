@@ -2,7 +2,7 @@ version : '2'
 
 services:
   mailtrain:
-    image: evild/alpine-mailtrain:latest
+    image: otlet/docker-alpine-mailtrain:latest
     networks:
       - front
       - back
