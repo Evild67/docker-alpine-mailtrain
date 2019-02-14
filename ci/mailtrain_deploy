@@ -3,4 +3,4 @@
 set -e
 
 git checkout master
-git push --mirror https://$GITHUB_TOKEN@github.com/Evild67/docker-alpine-mailtrain.git
+git push --mirror https://$GITHUB_TOKEN@github.com/otlet/docker-alpine-mailtrain.git

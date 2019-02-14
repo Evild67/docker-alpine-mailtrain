@@ -1,11 +1,11 @@
-FROM evild/alpine-nodejs:6.3.0
-MAINTAINER DOMINIQUE HAAS <contact@dominique-haas.fr>
+FROM node:lts-alpine
+MAINTAINER PAWEL OTLEWSKI <otlet@otlet.pl>
 
-ARG MAILTRAIN_VERSION=1.20.0
+ARG MAILTRAIN_VERSION=1.24.1
 
 RUN set -ex && apk add --no-cache curl \
   && cd /tmp \
-  && curl -fSL https://github.com/andris9/mailtrain/archive/v${MAILTRAIN_VERSION}.tar.gz -o mailtrain.tar.gz \
+  && curl -fSL https://github.com/Mailtrain-org/mailtrain/archive/v${MAILTRAIN_VERSION}.tar.gz -o mailtrain.tar.gz \
   && tar xzf mailtrain.tar.gz \
   && mkdir /app \
   && mv mailtrain-${MAILTRAIN_VERSION}/*  /app
